@@ -1,0 +1,176 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.square {
+    background-color: #6F98A8;
+    height: 190px;
+}
+.shuffle-container {
+    width: 100%;
+    margin: 1rem 0;
+}
+header p {
+    font-size: 24px;
+    margin: 0px
+}
+header p, footer {
+    text-align: center;
+}
+.action-bar {
+    padding: 1rem;
+}
+.action-bar button {
+    width: 49%;
+    display: inline;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+}
+
+.card
+{
+    padding: 10px;
+    display: inline-block;
+	font-size: 14pt;
+	text-align: center;
+	color:black;
+}
+
+.action-bar button {
+    color: white;
+    background: #72c3dc;
+    margin-bottom: 25px;
+	padding: 20px 0 20px 0;
+    display:inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 7px solid;
+    border-radius: 13px;
+    border-color: #2b8ead;
+}
+.card .value{
+    font-size: 124px;
+    color: white;
+    text-align: center;
+	font-family: sans-serif;
+}
+.cardColor1 {
+    background-color: #6F98A8;
+}
+.cardColor2 {
+    background-color: #2B8EAD;
+}
+.cardColor3 {
+    background-color: #2F454E;
+}
+.cardColor4 {
+    background-color: #BFBFBF;
+}
+
+.disp-inline-block {
+    display: inline-block;
+}
+.shuffle-content {
+    float: left;
+}
+
+@media (max-width: 768px), (min-width: 768px) {
+    .action-bar {
+        width: 33%;
+    }
+    .shuffle-content {
+        width: 66%;
+    }
+    .card {
+        width: 33%;
+    }
+    .action-bar button {
+        width: 100%;
+    }
+    .shuffle-container {
+        border-top: 4px solid grey;
+    }
+}
+
+@media (max-width: 550px) {
+    .action-bar {
+        width: 100%;
+    }
+    .shuffle-content {
+        width: 100%;
+    }
+    .card {
+        width: 33%;
+    }
+    .action-bar button {
+        width: 49.5%;
+        display: inline;
+    }
+    .shuffle-container {
+        border-top: 0px;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        padding: 0;
+    }
+    header {
+        background-color: grey;
+        color: white;
+    }
+    .shuffle-container {
+        border-top: 0px;
+        padding: 1rem;
+    }
+    .action-bar button {
+        width: 48%;
+        display: inline;
+    }
+    .square {
+        height: 35px;
+    }
+    .action-bar {
+        width: 100%;
+
+    }
+    .shuffle-content {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    .cardColor1 {
+        border-left: 4px solid #6F98A8;
+        background-color: whitesmoke;
+        color: black;
+    }
+    .cardColor2 {
+        background-color: whitesmoke;
+        border-left: 4px solid #2B8EAD;
+        color: black;
+    }
+    .cardColor3 {
+        background-color: whitesmoke;
+        border-left: 4px solid #2F454E;
+        color: black;
+    }
+    .cardColor4 {
+        background-color: whitesmoke;
+        border-left: 4px solid #BFBFBF;
+    }
+    .card .value {
+        color: black;
+        font-size: 24px;
+    }
+    .card {
+        padding: 1px;
+        margin-bottom: 5px;
+    }
+}
